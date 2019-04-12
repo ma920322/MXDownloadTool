@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MXDownloadViewController.h
 //  MXDownloadTool
 //
 //  Created by chengzi on 2019/4/12.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface MXDownloadViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

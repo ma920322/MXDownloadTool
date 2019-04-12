@@ -8,24 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		240B448A226086B200724E43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 240B4489226086B200724E43 /* AppDelegate.m */; };
-		240B448D226086B200724E43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 240B448C226086B200724E43 /* ViewController.m */; };
-		240B4490226086B200724E43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240B448E226086B200724E43 /* Main.storyboard */; };
 		240B4492226086B300724E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 240B4491226086B300724E43 /* Assets.xcassets */; };
 		240B4495226086B300724E43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240B4493226086B300724E43 /* LaunchScreen.storyboard */; };
 		240B4498226086B300724E43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 240B4497226086B300724E43 /* main.m */; };
+		240B44A02260883E00724E43 /* MXDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 240B449F2260883E00724E43 /* MXDownloadViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		240B4485226086B200724E43 /* MXDownloadTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXDownloadTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		240B4488226086B200724E43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		240B4489226086B200724E43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		240B448B226086B200724E43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		240B448C226086B200724E43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		240B448F226086B200724E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		240B4491226086B300724E43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		240B4494226086B300724E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		240B4496226086B300724E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		240B4497226086B300724E43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		240B449E2260883E00724E43 /* MXDownloadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXDownloadViewController.h; sourceTree = "<group>"; };
+		240B449F2260883E00724E43 /* MXDownloadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXDownloadViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +58,8 @@
 			children = (
 				240B4488226086B200724E43 /* AppDelegate.h */,
 				240B4489226086B200724E43 /* AppDelegate.m */,
-				240B448B226086B200724E43 /* ViewController.h */,
-				240B448C226086B200724E43 /* ViewController.m */,
-				240B448E226086B200724E43 /* Main.storyboard */,
+				240B449E2260883E00724E43 /* MXDownloadViewController.h */,
+				240B449F2260883E00724E43 /* MXDownloadViewController.m */,
 				240B4491226086B300724E43 /* Assets.xcassets */,
 				240B4493226086B300724E43 /* LaunchScreen.storyboard */,
 				240B4496226086B300724E43 /* Info.plist */,
@@ -130,7 +127,6 @@
 			files = (
 				240B4495226086B300724E43 /* LaunchScreen.storyboard in Resources */,
 				240B4492226086B300724E43 /* Assets.xcassets in Resources */,
-				240B4490226086B200724E43 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				240B448D226086B200724E43 /* ViewController.m in Sources */,
+				240B44A02260883E00724E43 /* MXDownloadViewController.m in Sources */,
 				240B4498226086B300724E43 /* main.m in Sources */,
 				240B448A226086B200724E43 /* AppDelegate.m in Sources */,
 			);
@@ -150,14 +146,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		240B448E226086B200724E43 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				240B448F226086B200724E43 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		240B4493226086B300724E43 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,6 +276,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89638632KH;
 				INFOPLIST_FILE = MXDownloadTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +294,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89638632KH;
 				INFOPLIST_FILE = MXDownloadTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
